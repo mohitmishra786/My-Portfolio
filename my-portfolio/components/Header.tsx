@@ -4,7 +4,11 @@ type Props = {}
 
 function Header({}: Props) {
   return (
-    <header>I am a Header</header>
+    <header>
+        <div>
+            {/*Social Icons */}
+        </div>
+    </header>
   )
 }
 
