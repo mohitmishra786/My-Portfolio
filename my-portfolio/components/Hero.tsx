@@ -24,14 +24,14 @@ function Hero({}: Props) {
         src="https://media-exp1.licdn.com/dms/image/C4D03AQG3ezW14WyKhQ/profile-displayphoto-shrink_200_200/0/1662836126839?e=1669852800&v=beta&t=UOmovv1TESmdfv8VigmHIiC4tduLsl4JhCF-eSIyF5Q" 
         alt="" 
         />
-        
-        <div>
 
+        <div>
+            <h1>
+                <span>{text}</span>
+                <Cursor cursorColor="#F7AB0A" />
+            </h1>
         </div>
-        <h1>
-            <span>{text}</span>
-            <Cursor cursorColor="#F7AB0A" />
-        </h1>
+        
     </div>
   )
 }
