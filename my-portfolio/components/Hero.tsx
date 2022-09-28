@@ -17,7 +17,10 @@ function Hero({}: Props) {
   
     return (
     <div>
-        
+        <h1>
+            <span>{text}</span>
+            <Cursor cursorColor="#FTAB0A" />
+        </h1>
     </div>
   )
 }
