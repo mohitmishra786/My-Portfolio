@@ -7,8 +7,7 @@ function Header({}: Props) {
   return (
     <header>
         <div>
-            {/*Social Icons */}
-            
+          {/*Social Icons */}<SocialIcon url="https://twitter.com/jaketrent" />
         </div>
     </header>
   )
