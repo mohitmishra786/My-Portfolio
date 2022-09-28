@@ -7,6 +7,7 @@ function Header({}: Props) {
     <header>
         <div>
             {/*Social Icons */}
+            <h2>My name</h2>
         </div>
     </header>
   )
