@@ -9,7 +9,6 @@ const Home: NextPage = () => {
         <title>Mohit's Portfolio</title>
       </Head>
 
-      <h1 className='text-blue-800'>My Name is Mohit Mishra</h1>
     </div>
   )
 }
