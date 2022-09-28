@@ -9,6 +9,25 @@ const Home: NextPage = () => {
         <title>Mohit's Portfolio</title>
       </Head>
 
+      {/* Header */}
+
+
+      {/* Hero */}
+
+
+      {/* About Me */}
+
+
+      {/* Experience */}
+
+
+      {/* Project */}
+
+
+      {/* Skills */}
+
+
+      {/* Contact Me*/}
     </div>
   )
 }
