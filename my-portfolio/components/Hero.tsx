@@ -35,14 +35,17 @@ function Hero({}: Props) {
             </h1>
 
             <div>
-                <button>
-
+                <button className='heroButton'>
+                    About
                 </button>
-                <button>
-
+                <button className='heroButton'>
+                    Experience
                 </button>
-                <button>
-                    
+                <button className='heroButton'>
+                    Skills
+                </button>
+                <button className='heroButton'>
+                    Project
                 </button>
             </div>
         </div>
