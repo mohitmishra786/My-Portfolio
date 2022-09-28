@@ -1,11 +1,24 @@
 import React from 'react'
-import { Typewriter } from 'react-simple-typewriter'
+import { Cursor, useTypewriter } from 'react-simple-typewriter'
 
 type Props = {}
 
 function Hero({}: Props) {
-  return (
-    <div>Hero</div>
+    const [text,count] = useTypewriter({
+        words: [
+            "Hi, My name is Mohit Mishra",
+            "Guy Who Love Coffee with ML", 
+            "Who Loves to Code Alot",
+        ],
+        loop: true,
+        delaySpeed: 2000,
+    });
+    
+  
+    return (
+    <div>
+        
+    </div>
   )
 }
 
