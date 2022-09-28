@@ -17,31 +17,48 @@ function Header({}: Props) {
           opacity: 1,
           scale: 1,
         }}
+        transition={{
+          duration: 1.5,
+        }}
         className='flex flex-row items-center'>
           {/*Social Icons */}
           <SocialIcon 
-          url="https://twitter.com/jaketrent"
+          url="https://www.linkedin.com/in/mohitmishraml/"
           fgColor='gray'
           bgColor='transparent' 
           />
           <SocialIcon 
-          url="https://twitter.com/jaketrent"
+          url="https://github.com/mohitmishra786"
           fgColor='gray'
           bgColor='transparent' 
           />
           <SocialIcon 
-          url="https://twitter.com/jaketrent"
+          url="https://twitter.com/chessMan786"
           fgColor='gray'
           bgColor='transparent' 
           />
           <SocialIcon 
-          url="https://twitter.com/jaketrent"
+          url="https://medium.com/@mohitmishra786687"
           fgColor='gray'
           bgColor='transparent' 
           />
         </motion.div>
 
-        <div className='flex flex-row items-center text-gray-300 cursor-pointer'>
+        <motion.div 
+        initial={{
+          x: 500,
+          opacity: 0,
+          scale: 0.5,
+        }}
+        animate={{
+          x: 0,
+          opacity: 1,
+          scale: 1,
+        }}
+        transition={{
+          duration: 1.5,
+        }}
+        className='flex flex-row items-center text-gray-300 cursor-pointer'>
           <SocialIcon 
             className='cursor-pointer'
             network='email'
@@ -50,7 +67,7 @@ function Header({}: Props) {
           />
           <p className='uppercase hidden md:inline-flex text-sm text-gray-400'>
             Get In Touch</p>
-        </div>
+        </motion.div>
     </header>
   )
 }
