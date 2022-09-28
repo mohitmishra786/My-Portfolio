@@ -26,7 +26,7 @@ function Hero({}: Props) {
         alt="" 
         />
 
-        <div>
+        <div className='z-20'> 
             <h2 className='text-sm text-gray-500 uppercase pb-2 tracking-[15px]'>
                 Software Engineer
             </h2>
