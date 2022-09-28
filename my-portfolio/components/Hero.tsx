@@ -19,6 +19,15 @@ function Hero({}: Props) {
     return (
     <div className='h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden'>
         <BackgroundCircles />
+        <img
+        className='relative rounded-full h-32 w-32 mx-auto object-cover' 
+        src="https://media-exp1.licdn.com/dms/image/C4D03AQG3ezW14WyKhQ/profile-displayphoto-shrink_200_200/0/1662836126839?e=1669852800&v=beta&t=UOmovv1TESmdfv8VigmHIiC4tduLsl4JhCF-eSIyF5Q" 
+        alt="" 
+        />
+        
+        <div>
+
+        </div>
         <h1>
             <span>{text}</span>
             <Cursor cursorColor="#F7AB0A" />
