@@ -26,7 +26,8 @@ const About = (props: Props) => {
         viewport={{
           once: true,
         }}
-        src= "https://avatars.githubusercontent.com/u/71754779?v=4"
+        src= "https://media-exp1.licdn.com/dms/image/C4D03AQG3ezW14WyKhQ/profile-displayphoto-shrink_200_200/0/1662836126839?e=1669852800&v=beta&t=UOmovv1TESmdfv8VigmHIiC4tduLsl4JhCF-eSIyF5Q"
+        className="rounded-full -mb-20 md:mb-0 flex-shrink-0 w-56 h-56  object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[600px]"
         />
     </div>
   )
