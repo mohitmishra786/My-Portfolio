@@ -39,7 +39,9 @@ const Home: NextPage = () => {
 
 
       {/* Project */}
-
+      <section id="projects" className='snap-center'>
+        <Projects />
+      </section>
 
       {/* Contact Me*/}
     </div>
