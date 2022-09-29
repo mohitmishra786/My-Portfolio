@@ -14,7 +14,7 @@ type Props = {}
 
 
 function ContactMe({}: Props) {
-    const { register, handleSubmit} = useForm<Inputs>();
+    const { register, handleSubmit,} = useForm<Inputs>();
 
     const onSubmit: SubmitHandler<Inputs> = (formData => console.log(formData));
   return (
