@@ -46,4 +46,4 @@ export default {
       of: [{type: "reference", to:{type: "social"}}],
     }
   ],
-}
+};
