@@ -1,10 +1,13 @@
 import React from 'react'
+import { motion } from "framer-motion";
 
 type Props = {}
 
 function Skills({}: Props) {
   return (
-    <div>Skills</div>
+    <div className='h-screen'>
+        Skills
+    </div>
   )
 }
 
