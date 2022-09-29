@@ -42,10 +42,10 @@ function About({}: Props) {
 
       <div className='space-y-10 px-0 md:px-10'>
         <h4 className='text-3xl font-semibold'>
-          Here is a <span className='underline decoration-[#F7AB0A]/50'>Little</span> Background
+          Here is a <span className='underline decoration-[#F7AB0A]/50'>little</span> Background
         </h4>
         <p className='text-sm xl:text-lg'>
-          I'm Mohit.❤️ You can also call me as Chessman. I'm a Machine learning Developer and a competitive programmer. Most of my time is spent staring at a computer screen. During the day, I am usually programming, working to derive insight from large datasets. My skills include Data Analysis, Data Visualization, Machine learning and Deep Learning. I have developed a strong acumen for problem solving, and I enjoy an occasional challenge. I am able to handle multiple task on daily basis.I always use a creative approach to solve problems.I am always energetic and eager to learn new skills.Even though, i take my work seriously, I do have a good sense of humour. I have done some good projects which uses machine learning, deep learning.  I have completed all my projects in a timely fashion. I have a good hands on experience working with NLP. I believe that words and data are the two most powerful tools to change the world.I love to work with data
+          I'm Mohit.❤️ You can also call me as Chessman. I'm a Machine learning Developer and a competitive programmer. Most of my time is spent staring at a computer screen. During the day, I am usually programming, working to derive insight from large datasets. My skills include Data Analysis, Data Visualization, Machine learning and Deep Learning. I have developed a strong acumen for problem solving, and I enjoy an occasional challenge. I am able to handle multiple task on daily basis.I always use a creative approach to solve problems.I am always energetic and eager to learn new skills.Even though, i take my work seriously, I do have a good sense of humour. I have done some good projects which uses machine learning, deep learning.  I have completed all my projects in a timely fashion. I have a good hands on experience working with NLP. I believe that words and data are the two most powerful tools to change the world.I love to work with data.
         </p>
       </div>
     </motion.div>
