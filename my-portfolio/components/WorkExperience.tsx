@@ -1,9 +1,12 @@
 import React from 'react'
 import { motion } from "framer-motion";
 import ExperienceCard from './ExperienceCard';
-type Props = {}
+import { Experience } from '../typing';
+type Props = {
+    experiences: Experience;
+};
 
-function WorkExperience({}: Props) {
+function WorkExperience({experiences}: Props) {
   return (
     <motion.div 
 
