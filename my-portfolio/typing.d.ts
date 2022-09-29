@@ -33,6 +33,9 @@ export interface Technology extends SanityBody {
 }
 
 export interface Skill extends SanityBody {
+    slice(arg0: number, arg1: number): unknown;
+    length: number;
+    map(arg0: (skill: any) => JSX.Element): import("react").ReactNode;
     _type: "skill";
     image: Image;
     progress: number;
@@ -40,6 +43,7 @@ export interface Skill extends SanityBody {
 }
 
 export interface Experience extends SanityBody {
+    map(arg0: (experience: any) => JSX.Element): import("react").ReactNode;
     _type: "experience";
     company: string;
     companyImage: Image;
