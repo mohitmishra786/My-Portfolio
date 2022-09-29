@@ -5,7 +5,7 @@ type Props = {}
 
 function ExperienceCard({}: Props) {
   return (
-    <article className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px]'>
+    <article className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snap-center bg-[#292929] p-10 hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden '>
         <motion.img 
         initial={{
             y: -100,
@@ -27,7 +27,7 @@ function ExperienceCard({}: Props) {
         />
 
         <div className='px-0 md:px-10'>
-            <h4 className='text-4xl font-light'>Machine Learning Engineer</h4>
+            <h4 className='text-4xl font-light'>ML Engineer</h4>
             <p className='font-bold text-2xl mt-1'>Omdena</p>
             <div className='flex space-x-2 my-2'>
                 <img
@@ -48,12 +48,12 @@ function ExperienceCard({}: Props) {
             </div>
             
             <p className='uppercase py-5 text-gray-300'>Started Work... - Ended...</p>
-            <ul className='list-disc space-y-4 ml-5 text-lg'>
-                <li>Summary</li>
-                <li>Summar</li>
-                <li></li>
-                <li></li>
-                <li></li>
+            <ul className='list-disc space-y-4 ml-5 text-sm'>
+                <li>Improved accuracy of the model from 82 percent to 91 percent in the career recommendation model.</li>
+                <li>Formulated an AutoML pipeline to automatically search for the best neural model for Natural Language Processing tasks.</li>
+                <li>Took the charge of developing an image augmentation pipeline for school image datasets.</li>
+                <li>Led the team of 4 engineers, guiding them towards the successful creation of the ML prediction model for resource allocation purpose.</li>
+                <li>Analyzed factors contributing to homelessness in Texas and proposed a solution for homelessness.</li>
             </ul>
         </div>
     </article>
