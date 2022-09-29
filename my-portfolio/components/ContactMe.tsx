@@ -15,7 +15,7 @@ function ContactMe({}: Props) {
                 <span className='decoration-[#F7AB0A]/50 underline '>Talk</span>
             </h4>
 
-            <div>
+            <div className='space-y-10'>
                 <div className='flex items-center space-x-5 justify-center'>
                     <PhoneIcon className='text-[#F7AB0A] h-7 w-7 animate-pulse' />
                     <p className='text-2xl'>+91 7023215632</p>
@@ -31,9 +31,19 @@ function ContactMe({}: Props) {
                 
 
             </div>
+
+            <form>
+                <div>
+                    <input type="text" /><input type="text" />
+                </div>
+                <input type="text" />
+
+                <textarea />
+                <button></button>
+            </form>
         </div>
     </div>
-  )
+  );
 }
 
 export default ContactMe
