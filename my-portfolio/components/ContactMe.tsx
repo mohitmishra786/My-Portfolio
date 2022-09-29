@@ -1,18 +1,22 @@
 import React from 'react'
 import { motion } from "framer-motion";
 import { PhoneIcon, MapPinIcon, EnvelopeIcon} from '@heroicons/react/24/solid'
-import { useForm } from "react-hook-form";
+import { useForm, SubmitHandler } from "react-hook-form";
 
 type Props = {}
 
-type FormData = {
-    firstName: string;
-    lastName: string;
+type Inputs = {
+    name: string;
+    email: string;
+    subject: string;
+    message: string;
 };
 
 function ContactMe({}: Props) {
-    const { register, setValue, handleSubmit, formState: { errors } } = useForm<FormData>();
-    const onSubmit = handleSubmit(data => console.log(data));
+    const { 
+        register, 
+        handleSubmit,  } = useForm<Inputs>();
+    const onSubmit: SubmitHandler<Inputs> = (data => console.log(data));
   return (
     <div className='h-screen flex relative text-center md:text-left md:flex-row max-w-7xl justify-evenly px-10 mx-auto items-center'>
         <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl'>Contact Me</h3>
