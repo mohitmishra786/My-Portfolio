@@ -16,7 +16,8 @@ function ContactMe({}: Props) {
     const { 
         register, 
         handleSubmit,  } = useForm<Inputs>();
-    const onSubmit: SubmitHandler<Inputs> = (data => console.log(data));
+
+    const onSubmit: SubmitHandler<Inputs> = (formData => console.log(data));
   return (
     <div className='h-screen flex relative text-center md:text-left md:flex-row max-w-7xl justify-evenly px-10 mx-auto items-center'>
         <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl'>Contact Me</h3>
