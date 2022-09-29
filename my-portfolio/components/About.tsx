@@ -1,8 +1,6 @@
 import React from 'react'
 import { motion } from "framer-motion";
 
-// https://avatars.githubusercontent.com/u/71754779?v=4
-
 type Props = {}
 
 export default function About({}: Props) {
@@ -21,13 +19,12 @@ export default function About({}: Props) {
           }}
           whileInView={{
             opacity: 1,
-            x:0,  
+            x: 0,  
           }}
           viewport={{
             once: true,
           }}
           src="https://static.remove.bg/remove-bg-web/3ad3b721d276f1af1fb7121aff638a866139749a/assets/start-1abfb4fe2980eabfbbaaa4365a0692539f7cd2725f324f904565a9a744f8e214.jpg"
-          //className="-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[600px]"
           className='-mb-20 md:mb-0 flex-shrink-0 rounded-full w-56 h-56 object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[600px]'
         />
     </div>
