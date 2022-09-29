@@ -1,4 +1,5 @@
 import React from 'react'
+import { motion } from "framer-motion";
 
 type Props = {}
 
@@ -11,14 +12,19 @@ function Projects({}: Props) {
         </h3>
         <div className='relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20'>
             {projects.map((project , i) => (
-                <div className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen'>
+                <div 
+                    className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen'>
                     <img 
-                    src="https://thumbs.dreamstime.com/b/homeless-man-bench-pop-art-vector-homeless-man-sleeps-bench-newspapers-pop-art-retro-vector-illustration-color-114550623.jpg" 
+                    className='w-56 h-36'
+                    src="https://image.freepik.com/vector-gratis/dibujos-animados-personas-hogar-planas-hombre-yace-banco-calle-tiene-frio_1284-33044.jpg" 
                     alt="" />
-                   <div>
-                        <h4>
-                            Project {i + 1} of {projects.length} : Homelessness in Texas 
+                   <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
+                        <h4 className='text-4xl font-semibold text-center'>
+                            <span className='underline decoration-[#F7Ab0A]/50'>Project {i + 1} of {projects.length} :</span> Homelessness in Texas 
                         </h4>
+                        <p className='text-lg text-center md:text-left'>
+                            This project was made under the Omdena organization. This project focuses mainly on the root causes of the increasing Homelessness in Texas.The data has been collected from Texas Homeless Network, Joint Centre for Housing Studies Harvard, Texas Government, Homelessness Information System, GitHub, and Kaggle. We were able to compare how COVID-19 has affected Texas and how the effects of COVID-19 have attributed to the other socio-economic factors of homelessness and homelessness rates.
+                        </p>
                     </div> 
                 </div>
             ))}
