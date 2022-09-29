@@ -8,7 +8,7 @@ import { Project} from "../../typing";
 const query = groq `
     *[_type == "project"]{
       ...,
-      technologies[] =>
+      technologies[] ->
     }
 `
 

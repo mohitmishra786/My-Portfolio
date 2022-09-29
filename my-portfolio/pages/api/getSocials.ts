@@ -2,6 +2,7 @@ import type { NextApiRequest, NextApiResponse } from "next";
 import { groq } from "next-sanity";
 import { SanityClient } from "next-sanity";
 import { sanityClient } from "../../sanity";
+import { Social } from "../../typing";
 
 
 const query = groq `
@@ -9,7 +10,7 @@ const query = groq `
 `
 
 type Data = {
-    socials: Social[]
+    socials: Social[];
 }
 
 export default async function handler(
