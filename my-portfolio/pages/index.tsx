@@ -31,10 +31,13 @@ const Home: NextPage = () => {
         <WorkExperience />
       </section>
 
-      {/* Project */}
-
-
       {/* Skills */}
+      <section id='skills' className='snap-center' >
+        <Skills />
+      </section>
+
+
+      {/* Project */}
 
 
       {/* Contact Me*/}
