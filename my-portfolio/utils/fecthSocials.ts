@@ -1,11 +1,11 @@
-import { Skill } from "../typing";
+import { Social } from "../typing";
 
-export const fetchSkills = async() => {
-    const res = await fetch(`${process.env.NEXT_PUBLIC_BASIC_URL}/api/getSkills`);
+export const fetchSocials = async() => {
+    const res = await fetch(`${process.env.NEXT_PUBLIC_BASIC_URL}/api/getSocials`);
 
     const data = await res.json()
-    const skills: Skill[] = data.skills;
+    const socials: Social[] = data.socials;
 
-    return skills
+    return socials
 }
 
