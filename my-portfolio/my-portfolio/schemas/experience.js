@@ -1,49 +1,52 @@
 export default {
-  name: 'pageInfo',
-  title: 'pageInfo',
+  name: 'experience',
+  title: 'Experience',
   type: 'document',
   fields: [
     {
-      name: "name",
-      title: "Name",
+      name: "jobTitle",
+      title: "JobTitle",
       type: "string",
     },
     {
-      name: "heroImage",
-      title: "Image",
+      name: "companyImage",
+      title: "CompanyImage",
       type: "image",
       options: {
         hotspot: true,
       }
     },
     {
-      name: "profilePic",
-      title: "ProfilePic",
-      type: "image",
-      options: {
-        hotspot: true,
-      }
+      name: "company",
+      title: "Company",
+      type: "text",
     },
     {
-      name: "phoneNumber",
-      title: "PhoneNumber",
-      type: "string",
+      name: "dateStarted",
+      title: "DateStarted",
+      type: "date",
     },
     {
-      name: "email",
-      title: "Email",
-      type: "string",
+      name: "dateEnded",
+      title: "DateEnded",
+      type: "date",
     },
     {
-      name: "address",
-      title: "Address",
-      type: "string",
+      name: "isCurrentlyWorkingHere",
+      title: "IsCurrentlyWorkingHere",
+      type: "boolean",
     },
     {
-      name: "socials",
-      title: "Socials",
+      name: "technologies",
+      title: "Technologies",
       type: "array",
-      of: [{type: "reference", to:{type: "social"}}],
+      of: [{type: "reference", to:{type: "skill"}}],
     }
+    {
+      name: "points",
+      title: "Points",
+      type: "array",
+      of: [{type: "string"}],
+    },
   ],
 }
