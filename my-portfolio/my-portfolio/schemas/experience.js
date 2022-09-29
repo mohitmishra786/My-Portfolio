@@ -41,7 +41,7 @@ export default {
       title: "Technologies",
       type: "array",
       of: [{type: "reference", to:{type: "skill"}}],
-    }
+    },
     {
       name: "points",
       title: "Points",
