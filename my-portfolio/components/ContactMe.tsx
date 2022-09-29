@@ -1,5 +1,6 @@
 import React from 'react'
 import { motion } from "framer-motion";
+import { PhoneIcon, MapPinIcon, EnvelopeIcon} from '@heroicons/react/24/solid'
 
 type Props = {}
 
@@ -15,7 +16,20 @@ function ContactMe({}: Props) {
             </h4>
 
             <div>
+                <div className='flex items-center space-x-5 justify-center'>
+                    <PhoneIcon className='text-[#F7AB0A] h-7 w-7 animate-pulse' />
+                    <p className='text-2xl'>+91 7023215632</p>
+                </div>
+                <div className='flex items-center space-x-5 justify-center'>
+                    <EnvelopeIcon className='text-[#F7AB0A] h-7 w-7 animate-pulse' />
+                    <p className='text-2xl'>dukechessman@gmail.com</p>
+                </div>
+                <div className='flex items-center space-x-5 justify-center'>
+                    <MapPinIcon className='text-[#F7AB0A] h-7 w-7 animate-pulse' />
+                    <p className='text-2xl'>Dream</p>
+                </div>
                 
+
             </div>
         </div>
     </div>
