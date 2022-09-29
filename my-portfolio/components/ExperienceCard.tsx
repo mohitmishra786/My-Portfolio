@@ -52,7 +52,6 @@ function ExperienceCard({}: Props) {
                 <li>Improved accuracy of the model from 82 percent to 91 percent in the career recommendation model.</li>
                 <li>Formulated an AutoML pipeline to automatically search for the best neural model for Natural Language Processing tasks.</li>
                 <li>Took the charge of developing an image augmentation pipeline for school image datasets.</li>
-                <li>Led the team of 4 engineers, guiding them towards the successful creation of the ML prediction model for resource allocation purpose.</li>
                 <li>Analyzed factors contributing to homelessness in Texas and proposed a solution for homelessness.</li>
             </ul>
         </div>
