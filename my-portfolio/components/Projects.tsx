@@ -41,7 +41,7 @@ function Projects({}: Props) {
                     viewport={{
                         once: true,
                     }}
-                    className='h-40 w-40'
+                    className='h-20 w-20 rounded-full md:h-40 md:w-40 xl:h-50 xl:w-50'
                     src="https://image.freepik.com/vector-gratis/dibujos-animados-personas-hogar-planas-hombre-yace-banco-calle-tiene-frio_1284-33044.jpg" 
                     alt="" />
                    <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
