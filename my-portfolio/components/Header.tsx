@@ -5,7 +5,7 @@ import Link from 'next/link';
 import {Social} from "../typing"
 
 type Props = {
-  socials: Social[]
+  socials: Social[];
 };
 
 function Header({socials}: Props) {
@@ -31,14 +31,14 @@ function Header({socials}: Props) {
           
           {/*Social Icons */}
 
-          {socials.map((social) =>
+          {socials.map((social) =>(
             <SocialIcon 
             key={social._id}
             url={social.url}
             fgColor='gray'
             bgColor='transparent' 
             />
-          )}
+          ))}
         </motion.div>
 
         <Link href="#contact">
